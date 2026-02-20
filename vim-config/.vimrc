@@ -1,12 +1,13 @@
 " Vundle is a vim plugin manager that handles installation, updates, and
-" removal. To set it up you need to clone the Vundle git repository using:
+" removal. To set it up you need to clone the Vundle git into the .vim
+" directory repository using:
 "
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 "
-" After doing that you need to copy everything from line 14 through 58 and put
-" it in your new .vimrc file (add any other plugins you want while you're at
-" it). Then open the main vim program and type `:PluginInstall` to install
-" everything you have set up.
+" After doing that you need to copy everything from line 15 through 61 and put
+" it in your new .vimrc file (add any other plugins you want above line 48
+" while you're at it). Then type `vim +PluginInstall +qall` to
+" install everything you have set up.
 "
 " (bonus step! If you have the 'Fish Shell' add `set shell=/bin/bash` to this 
 " file somewhere.)
