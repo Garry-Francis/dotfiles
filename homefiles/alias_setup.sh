@@ -22,4 +22,4 @@ else
     exit 1
 fi
 
-echo "Bash aliases setup complete! Remember to reload your environment with source .bashrc"
+echo "Bash aliases setup complete! Remember to reload your environment with source .bashrc while inside your home directory."
