@@ -6,7 +6,7 @@ set -e
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Variable for repo .bash_aliases
-BASH_ALIASES_SOURCE="$REPO_DIR/homefiles/.bash_aliases"
+BASH_ALIASES_SOURCE="$REPO_DIR/.bash_aliases"
 
 # Variable for system .bash_aliases
 BASH_ALIASES_TARGET="$HOME/.bash_aliases"
@@ -22,4 +22,4 @@ else
     exit 1
 fi
 
-echo "Bash aliases setup complete! Remember to reload your environment with `source .bashrc`."
+echo "Bash aliases setup complete! Remember to reload your environment with source .bashrc"
