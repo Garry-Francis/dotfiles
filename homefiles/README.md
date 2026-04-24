@@ -1,1 +1,40 @@
-This directory contains my `.bash_aliases` file along with a script to copy it over the one present in your home directory. A `.bash_aliases` file is used to write custom shorthand commands for commonly used command line functions to make their execution easier. Running the script using `./alias_setup.sh` while inside the `/homefiles` directory will copy the `.bash_aliases` file over the one in your home directory and then instruct you to run `source .bashrc` to reload the file.
+# Bash Aliases
+
+## Overview
+
+This directory contains a `.bash_aliases` file along with a helper script to install it.
+
+### What is `.bash_aliases`?
+
+The `.bash_aliases` file lets you define custom shorthand commands (aliases) for frequently used terminal commands, making them quicker and easier to run.
+
+### Installation
+
+To install the aliases:
+
+1. Navigate to the `homefiles` directory:
+
+   ```bash
+   cd homefiles
+   ```
+
+2. Run the setup script:
+
+   ```bash
+   ./alias_setup.sh
+   ```
+
+This script will:
+
+* Copy the provided `.bash_aliases` file to your home directory (overwriting the existing one, if present)
+* Prompt you to reload your shell configuration
+
+### Apply Changes
+
+After running the script, reload your shell configuration with:
+
+```bash
+source ~/.bashrc
+```
+
+Your new aliases should now be active.
