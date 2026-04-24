@@ -11,4 +11,5 @@ To use these dotfiles, first clone this repository with your prefered method of 
 ### Notes
 
 * I should have kept track of my sources so I could actualy cite more of them.
+  * Will possibly go looking for them if I get the time.
 * Honestly thats it the rest of it turned out pretty good if I say so myself.
